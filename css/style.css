@@ -150,7 +150,7 @@ blockquote {
 }
 .banner-caption {
 	position: absolute;
-	top: 40%;
+	top: 30%;
 	width: 100%;
 	z-index: 2;
 }
@@ -319,8 +319,8 @@ blockquote {
 }
 .btn-default:hover {
 	color: #ffffff;
-	background-color: #339BEB;
-	border-color: #339BEB;
+	background-color: #5C9E76;
+	border-color: #5C9E76;
 }
 
 /* Collapse
@@ -579,6 +579,7 @@ textarea {
 	text-decoration: none;
 }
 
+
 /* Testimonials
 ---------------------------------- */
 .testimonial .media-left {
@@ -609,25 +610,25 @@ textarea {
 	color: #5C9E76;
 }
 .social-links li.skype a:hover {
-	color: #00aff0;
+	color: #5C9E76;
 }
 .social-links li.linkedin a:hover {
-	color: #0976b4;
+	color: #5C9E76;
 }
 .social-links li.googleplus a:hover {
-	color: #dd4b39;
+	color: #5C9E76;
 }
 .social-links li.youtube a:hover {
-	color: #b31217;
+	color: #5C9E76;
 }
 .social-links li.flickr a:hover {
-	color: #ff0084;
+	color: #5C9E76;
 }
 .social-links li.facebook a:hover {
-	color: #3b5998;
+	color: #5C9E76;
 }
 .social-links li.pinterest a:hover {
-	color: #cb2027;
+	color: #5C9E76;
 }
 
 /* Isotope Items
