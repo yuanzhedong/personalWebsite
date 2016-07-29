@@ -1,0 +1,209 @@
+<html>
+    <title>We are drawing!</title>
+    <style>
+      html {
+        height: 100%;
+        overflow: hidden;
+      }
+      
+      body { 
+        margin:0;
+        padding:0;
+        perspective: 1px;
+        transform-style: preserve-3d;
+        height: 100%;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        font-family: Nunito;
+      }
+      
+      h1 {
+         font-size: 200%
+      }
+      h3 {
+         font-size: 150%
+      }
+      p {
+        font-size: 120%;
+        line-height: 120%;
+        color: #555;
+        text-align: left;
+      }
+      
+      .slide {
+        position: relative;
+        padding: 25vh 10%;
+        min-height: 10vh;
+        width: 100vw;
+        box-sizing: border-box;
+        box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+              transform-style: inherit;
+      }
+      
+      img {
+        position: absolute;
+        top: 50%;
+        left: 55%;
+        width: 800px;
+        transform: translateZ(.25px) scale(.75) translateX(-94%) translateY(-100%) rotate(2deg);
+        padding: 10px;
+        border-radius: 5px;
+        background: rgba(240,230,220, .7);
+        box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+      }
+      
+      img.alternative {
+        transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(-80%) rotate(-5deg);
+      }
+      
+      .slide:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left:0;
+        right:0;
+      }
+      
+      .title {
+        position: relative;
+        top: 100px;
+        width: 80%;
+        height: 150px;
+        padding: 5%;
+        border-radius: 5px;
+        background: rgba(240,230,220, .7);
+        box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+      }
+      
+      .title div{
+        font-size: 120%;
+      }
+      
+      .slide:nth-child(2n) .title {
+        margin-left: 0;
+        margin-right: auto;
+      }
+      
+      .slide:nth-child(2n+1) .title {
+        margin-left: auto;
+        margin-right: 0;
+      }
+      
+      .slide, .slide:before {
+        background: 50% 50% / cover;  
+      }
+      
+      .header {
+        text-align: center;
+        font-size: 175%;
+        color: #555;
+        text-shadow: 0 2px 2px #000;
+      }
+      
+      #title {
+        background-image: url("bg.jpg");
+         background-attachment: fixed;  
+      }
+      
+      #title p{
+        color: #555;
+      }
+      
+      #slide1:before {
+        background-image: url("bg1.jpg");
+        transform: translateZ(-1px) scale(2);
+        z-index:-1;
+      }
+      
+      #slide2 {
+        background-image: url("bg2.jpg");
+        background-attachment: fixed;
+      }
+      
+      #slide3:before {
+        background-image: url("bg3.jpg");
+        transform: translateZ(-1px) scale(2);
+        z-index:-1;
+      }
+      
+      #slide4 {
+        background-image: url("final.jpg");
+
+      }
+      .container{
+        padding: 5%;
+        background: rgba(240,230,220, .7);
+        box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+        border-radius: 5px;
+      }
+    </style>
+<body>
+<div id="title" class="slide header">
+  <div class="container">
+
+  <h1>We are drawing!</h1>
+  <p>This project exhibits 20 collaborative drawings by 20 newly formed distributed teams. Teams are asked to draw before they start their projects over distance by using an online collaborative whiteboard (groupboard.com). All drawings need to be accomplished in less than 20 minutes. We do not expect specific content or qualities through the drawings, instead, we want to facilitate the newly formed teams to use this application to express, share, communicate, get to know each other, and get connected before they start doing a project. This project does not have one single "author", but 60 collaborative "authors". The drawings collectively represent an emerging knowledge of team collaboration, trust, and self-expression.</p>
+        
+    </div>
+</div>
+
+<div id="slide1" class="slide">
+  <div class="title">
+    <h3>Drawing 1</h3>
+    <p>
+        <div>
+            Vibrant, Goofy, Rough
+        </div>
+        <div>
+            Happy, Abstract, Building
+        </div>
+        <div>
+            Basic, Realistic, Geometric
+        </div>
+    </p>
+  </div>
+    <img src="1.png" />
+</div>
+
+<div id="slide2" class="slide">
+  <div class="title">
+    <h3>Drawing 2</h3>
+    <p>
+        <div>
+            Interesting, Complicated, Coherent
+        </div>
+        <div>
+            Happy, Relaxing, Enjoyable
+        </div>
+        <div>
+            Wish, You, Success
+        </div>
+    </p>
+  </div>
+  <img src="2.png" class="alternative" /> 
+</div>
+
+<div id="slide3" class="slide">
+  <div class="title">
+    <h3>Drawing 3</h3>
+    <p>
+        <div>
+            DBH Building, We Are Drawing, Hey Guys Look
+        </div>
+        <div>
+            Donald Bren Hall
+        </div>
+        <div>
+            Donald Bren Hall, Outline Tree
+        </div>
+    </p>
+  </div>
+  <img src="3.png" />
+</div>
+
+<div id="slide4" class="slide header">
+    <h1>To be continued...</h1>
+</div>
+</body>
+</html>

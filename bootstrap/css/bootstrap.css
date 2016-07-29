@@ -920,13 +920,10 @@ a {
 }
 a:hover,
 a:focus {
-  color: #2a6496;
-  text-decoration: underline;
+
 }
 a:focus {
-  outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px;
+
 }
 figure {
   margin: 0;
@@ -1038,7 +1035,7 @@ h2,
 .h2,
 h3,
 .h3 {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 h1 small,
@@ -1061,7 +1058,7 @@ h5,
 .h5,
 h6,
 .h6 {
-  margin-top: 10px;
+  margin-top: 0px;
   margin-bottom: 10px;
 }
 h4 small,

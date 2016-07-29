@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>2.8</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <Captions>true</Captions>
+            <CaptionsEffect>slide</CaptionsEffect>
+            <Controls>true</Controls>
+            <GalleryName>1222</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>fade</ImageEffect>
+            <ImageHeight>380</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>true</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>H:/Program Files/WOW Slider/templates/backgnd/mac/</ImageTemplate>
+            <ImageTemplateName>Native</ImageTemplateName>
+            <ImageWidth>550</ImageWidth>
+            <Images>true</Images>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <Preloader>false</Preloader>
+            <PublishFileName>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/iustudentsystem/iustudentsystem.html</PublishFileName>
+            <PublishIndex>iustudentsystem.html</PublishIndex>
+            <PublishPath>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/iustudentsystem</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>page</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>0</ShowBullets>
+            <ShowTooltips>true</ShowTooltips>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <TemplateName>mac</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>top</TooltipPos>
+            <noFrame>false</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/iustudentsystem/images/1.png</url>
+                <title>Home Page</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/iustudentsystem/images/2.png</url>
+                <title>Main Navigation</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/iustudentsystem/images/8.png</url>
+                <title>Major Requirement</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/iustudentsystem/images/9.png</url>
+                <title>Major Requirement</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/iustudentsystem/images/10.png</url>
+                <title>Major Requirement</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/iustudentsystem/images/11.png</url>
+                <title>Course Detail</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/iustudentsystem/images/12.png</url>
+                <title>Course Search</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/iustudentsystem/images/13.png</url>
+                <title>Expand Detail</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/iustudentsystem/images/14.png</url>
+                <title>All My Plans</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/iustudentsystem/images/15.png</url>
+                <title>All My Plans</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/iustudentsystem/images/16.png</url>
+                <title>Create a New Plan</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/iustudentsystem/images/17.png</url>
+                <title>Create a New Plan</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/iustudentsystem/images/18.png</url>
+                <title>Create a New Plan</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/iustudentsystem/images/19.png</url>
+                <title>The Course Pool</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/iustudentsystem/images/20.png</url>
+                <title>Drag and Define</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/iustudentsystem/images/20-2.png</url>
+                <title>Preview</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/iustudentsystem/images/20-3.png</url>
+                <title>Finish and Register</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/iustudentsystem/images/21.png</url>
+                <title>Enroll</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/iustudentsystem/images/22.png</url>
+                <title>Enroll</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/iustudentsystem/images/23.png</url>
+                <title>Enroll</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/iustudentsystem/images/24.png</url>
+                <title>Enroll</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/iustudentsystem/images/25.png</url>
+                <title>Enroll</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/iustudentsystem/images/26.png</url>
+                <title>Edit the Course Pool</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/iustudentsystem/images/27.png</url>
+                <title>Course Search</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/iustudentsystem/images/28.png</url>
+                <title>Search Result</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/iustudentsystem/images/29.png</url>
+                <title>Course Detail</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/iustudentsystem/images/30.png</url>
+                <title>Add the Course</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/iustudentsystem/images/31.png</url>
+                <title>My Courses</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/iustudentsystem/images/32.png</url>
+                <title>Course Detail</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/iustudentsystem/images/34.png</url>
+                <title>Transcript</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/iustudentsystem/images/35.png</url>
+                <title>Reach the Main Navigation</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/iustudentsystem/images/36.png</url>
+                <title>Academic Exploration</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/iustudentsystem/images/37.png</url>
+                <title>Academic Exploration</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/iustudentsystem/images/38.png</url>
+                <title>Academic Exploration</title>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

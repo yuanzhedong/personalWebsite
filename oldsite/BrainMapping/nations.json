@@ -1,0 +1,6 @@
+[
+{"name":"Dakuo","readingDuration":[[597,1],[637,40],[638,0.1],[733,0.1],[734,1],[810,77],[811,0.1]],"moodScore":[[597,66.6],[637,64.8],[734,63.6],[810,57.5]],"readingTitle":[[597,"Philip, K., Irani, L., & Dourish, P.: Postcolonial Computing: A Tactical Survey"],[734,"Revolution, A. C.: in the Digital Age"]]},
+{"name":"Mengyao","moodScore":[[570,32.9],[660,78.4],[840,46.4],[900,70.7],[1020,48.4],[1050,48]],"readingDuration":[[570,1],[660,90],[661,0.1],[840,0.1],[900,60],[901,0.1],[1020,0.1],[1050,30],[1051,0.1]],"readingTitle":[[570,"Source, C., & Bozovic, M.: The inspection­house"],[840,"Bowker, G. C.: Data Flakes : An Afterword to Raw Data Is an Oxymoron"],[1020,"Plate, A. M.: The Wealth of Networks"]]},
+{"name":"Simone","readingDuration":[[540,1],[640,100],[641,0.1]],"moodScore":[[540,80],[640,40]],"readingTitle":[[540,"Gillespie, T.: The politics of platforms"]]},
+{"name":"Aubrey","moodScore":[[937,79],[1197,42],[1232,33],[1293,61]],"readingDuration":[[937,1],[1197,260],[1198,0.1],[1231,0.1],[1232,1],[1293,61],[1294,0.1]],"readingTitle":[[937,"Drive, H., & Kirschenbaum, M. G.: Extreme Inscription"],[1232,"DiSalvo, C.: Design and the Construction of Publics"]]}
+]

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>2.8</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <Captions>true</Captions>
+            <CaptionsEffect>slide</CaptionsEffect>
+            <Controls>true</Controls>
+            <GalleryName>1221</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>fade</ImageEffect>
+            <ImageHeight>360</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>true</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>H:/Program Files/WOW Slider/templates/backgnd/mac/</ImageTemplate>
+            <ImageTemplateName>Native</ImageTemplateName>
+            <ImageWidth>480</ImageWidth>
+            <Images>true</Images>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <Preloader>false</Preloader>
+            <PublishFileName>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/homedesign/homedesign.html</PublishFileName>
+            <PublishIndex>homedesign.html</PublishIndex>
+            <PublishPath>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/homedesign</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>page</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>0</ShowBullets>
+            <ShowTooltips>true</ShowTooltips>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <TemplateName>mac</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>top</TooltipPos>
+            <noFrame>false</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/homedesign/images/Slide15.PNG</url>
+                <title>Overview of the System</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/homedesign/images/Slide14.PNG</url>
+                <title>Voice Helper</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/homedesign/images/Slide16.PNG</url>
+                <title>Rotate the Watch to Define an Area</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/homedesign/images/Slide17.PNG</url>
+                <title>Hold Button to Define the Label and Release to Set</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/homedesign/images/Slide18.PNG</url>
+                <title>Result Will Show on the Mat</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/homedesign/images/Slide19.PNG</url>
+                <title>Foldable </title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/homedesign/images/Slide20.PNG</url>
+                <title>and Portable</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/homedesign/images/Slide21.PNG</url>
+                <title>After Setting It Up, Bring It Outside Home</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/homedesign/images/Slide22.PNG</url>
+                <title>Can Reset It Anytime If Needed</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/homedesign/images/Slide23.PNG</url>
+                <title>Mat Will Change Accordingly </title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/homedesign/images/Slide24.PNG</url>
+                <title>Waitress Can Place Items According to the Labels</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/homedesign/images/Slide25.PNG</url>
+                <title>If They Wrongly Do It</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/homedesign/images/Slide26.PNG</url>
+                <title>The Watch Will Give Out Viberation or Sound</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/homedesign/images/Slide27.PNG</url>
+                <title>Physical Indicator Will Tell The Situation of The Mat</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/homedesign/images/Slide30.PNG</url>
+                <title>Eating Like at Home</title>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>2.8</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <Captions>true</Captions>
+            <CaptionsEffect>slide</CaptionsEffect>
+            <Controls>true</Controls>
+            <GalleryName>1221</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>fade</ImageEffect>
+            <ImageHeight>410</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>true</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>H:/Program Files/WOW Slider/templates/backgnd/mac/</ImageTemplate>
+            <ImageTemplateName>Native</ImageTemplateName>
+            <ImageWidth>550</ImageWidth>
+            <Images>true</Images>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <Preloader>false</Preloader>
+            <PublishFileName>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/fosteringcloseness/fosteringcloseness.html</PublishFileName>
+            <PublishIndex>fosteringcloseness.html</PublishIndex>
+            <PublishPath>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/fosteringcloseness</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>page</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>0</ShowBullets>
+            <ShowTooltips>true</ShowTooltips>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <TemplateName>mac</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>top</TooltipPos>
+            <noFrame>false</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/fosteringcloseness/images/1.jpg</url>
+                <title>Team Work</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/fosteringcloseness/images/2.jpg</url>
+                <title>Affinity Diagram</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/fosteringcloseness/images/3.JPG</url>
+                <title>Paper Prototype</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/fosteringcloseness/images/4.jpg</url>
+                <title>Paper Prototype</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/fosteringcloseness/images/7.JPG</url>
+                <title>Paper Prototype</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/fosteringcloseness/images/5_home page.jpg</url>
+                <title>Home Page</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/fosteringcloseness/images/7_comment page reply.jpg</url>
+                <title>Comment Reply</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/fosteringcloseness/images/3_photo share.jpg</url>
+                <title>Photo Sharing</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/fosteringcloseness/images/13_see memory_zoomin.jpg</url>
+                <title>Pop Up Menu</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/fosteringcloseness/images/17_see a photo_2.jpg</url>
+                <title>Face Recognition</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/fosteringcloseness/images/19_faces.jpg</url>
+                <title>Pop Up Menu</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/fosteringcloseness/images/15_filter.jpg</url>
+                <title>Memory Line </title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/fosteringcloseness/images/10_receive message_zoomin.jpg</url>
+                <title>Top Bar Bubble</title>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

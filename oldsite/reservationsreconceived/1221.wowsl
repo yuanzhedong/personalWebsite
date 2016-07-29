@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>2.8</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <Captions>true</Captions>
+            <CaptionsEffect>slide</CaptionsEffect>
+            <Controls>true</Controls>
+            <GalleryName>1221</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>fade</ImageEffect>
+            <ImageHeight>400</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>true</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>H:/Program Files/WOW Slider/templates/backgnd/mac/</ImageTemplate>
+            <ImageTemplateName>Native</ImageTemplateName>
+            <ImageWidth>550</ImageWidth>
+            <Images>true</Images>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <Preloader>false</Preloader>
+            <PublishFileName>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/reservationsreconceived/reservationsreconceived.html</PublishFileName>
+            <PublishIndex>reservationsreconceived.html</PublishIndex>
+            <PublishPath>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/reservationsreconceived</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>page</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>0</ShowBullets>
+            <ShowTooltips>0</ShowTooltips>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <TemplateName>mac</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>top</TooltipPos>
+            <noFrame>false</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/reservationsreconceived/data4/images/1.jpg</url>
+                <title>Reframe Design Problem</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/reservationsreconceived/data4/images/2.jpg</url>
+                <title>Reframe Design Problem</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/reservationsreconceived/data4/images/3.jpg</url>
+                <title>Brainstorm</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/reservationsreconceived/data4/images/4.jpg</url>
+                <title>Brainstorm</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/reservationsreconceived/data4/images/5.jpg</url>
+                <title>Initial Sketch</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/reservationsreconceived/data4/images/6.jpg</url>
+                <title>Initial Sketch</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/reservationsreconceived/data4/images/8.jpg</url>
+                <title>Paper Prototype</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/reservationsreconceived/data4/images/9.jpg</url>
+                <title>Paper Prototype</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/reservationsreconceived/data4/images/10.jpg</url>
+                <title>User Test</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/reservationsreconceived/data4/images/11.jpg</url>
+                <title>User Test</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/reservationsreconceived/data4/images/12.jpg</url>
+                <title>First Page</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/reservationsreconceived/data4/images/13.jpg</url>
+                <title>Login</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/reservationsreconceived/data4/images/14.jpg</url>
+                <title>Room Information</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/reservationsreconceived/data4/images/15.jpg</url>
+                <title>Select Data and Time</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/reservationsreconceived/data4/images/16.jpg</url>
+                <title>Make Multiple Reservation</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/reservationsreconceived/data4/images/17.jpg</url>
+                <title>Resources Information</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/reservationsreconceived/data4/images/18.jpg</url>
+                <title>Choose from Recommended Resources</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/reservationsreconceived/data4/images/19.jpg</url>
+                <title>Reservation Confirmation without Payment</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/reservationsreconceived/data4/images/20.jpg</url>
+                <title>Reservation Confirmation with Payment</title>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

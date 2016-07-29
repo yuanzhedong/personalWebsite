@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>2.8</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <Captions>true</Captions>
+            <CaptionsEffect>slide</CaptionsEffect>
+            <Controls>true</Controls>
+            <GalleryName>1221</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>fade</ImageEffect>
+            <ImageHeight>360</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>H:/Program Files/WOW Slider/templates/backgnd/mac/</ImageTemplate>
+            <ImageTemplateName>Native</ImageTemplateName>
+            <ImageWidth>480</ImageWidth>
+            <Images>true</Images>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <Preloader>false</Preloader>
+            <PublishFileName>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/graphics/graphics.html</PublishFileName>
+            <PublishIndex>graphics.html</PublishIndex>
+            <PublishPath>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/graphics</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>page</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>0</ShowBullets>
+            <ShowTooltips>true</ShowTooltips>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <TemplateName>mac</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>top</TooltipPos>
+            <noFrame>false</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/graphics/images/3.png</url>
+                <title>Sketch</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/graphics/images/4.png</url>
+                <title>Sketch</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/graphics/images/5.png</url>
+                <title>Sketch</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/graphics/images/6.png</url>
+                <title>Sketch</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/graphics/images/1.png</url>
+                <title>Photoshop</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/graphics/images/2.png</url>
+                <title>Adobe After Effects</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/graphics/images/30.png</url>
+                <title>Photoshop</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/graphics/images/7.png</url>
+                <title>Color</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/graphics/images/8.png</url>
+                <title>Color</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/graphics/images/9.png</url>
+                <title>3Ds Max</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/graphics/images/10.png</url>
+                <title>3Ds Max</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/graphics/images/11.png</url>
+                <title>3Ds Max</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/graphics/images/12.png</url>
+                <title>3Ds Max</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/graphics/images/13.png</url>
+                <title>3Ds Max</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/graphics/images/14.png</url>
+                <title>3Ds Max</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/graphics/images/15.png</url>
+                <title>3Ds Max</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/graphics/images/16.png</url>
+                <title>3Ds Max</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/graphics/images/17.png</url>
+                <title>3Ds Max</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/graphics/images/18.png</url>
+                <title>3Ds Max</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/graphics/images/19.png</url>
+                <title>3Ds Max</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/graphics/images/20.png</url>
+                <title>3Ds Max</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/graphics/images/31.png</url>
+                <title>3Ds Max</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/graphics/images/32.png</url>
+                <title>32</title>
+            </Image>
+            <Image>
+                <url>C:/Users/Yolanda/Documents/My Box Files/personal/portfolio/graphics/images/33.png</url>
+                <title>3Ds Max</title>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html class="ocks-org do-not-copy">
+<head>
+<title>Brain Mapping Prototype</title>
+<meta charset="utf-8">
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+
+<style>
+
+body{ 
+	font-family: Helvetica;
+	background-image:url(background.jpg); 
+	background-repeat: repeat;
+	background-position: center top;}
+a
+{
+	color: #49BBCC;
+	}
+	
+#chart {
+  margin-left: 100px;
+  height: 506px;
+}
+
+text {
+  font: 10px Helvetica;
+}
+
+.dot {
+  stroke: #000;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.label {
+  fill: #777;
+}
+
+.year.label {
+  font: 500 100px "Helvetica Neue";
+  fill: #ddd;
+}
+
+.year.label.active {
+  fill: #aaa;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+  cursor: ew-resize;
+}
+	
+#topheader{
+margin: -50px 0 0 -8px;
+position: absolute;
+width: 100%;
+height: 3px;
+z-index: 3;
+background-color: #49BBCC;
+}
+	
+#logo {margin: -20px 20px 0 20px; float:left;}
+
+#webtitle {margin: 50px 0 0 20px; font-size: 60px; color: #49BBCC; font-family:Georgia, "Times New Roman", Times, serif; font-weight:600; text-shadow: 1px 1px 1px #fff;}
+
+#about {
+	width: 678px;
+	float:left;
+	margin: 20px 0 20px 5px;
+	color: #777;
+	font: 13px Georgia, "Times New Roman", Times, serif;
+	line-height:20px;
+	text-shadow: 1px 1px 1px #fff;
+	}
+
+#newuser{
+	float: left;
+	width: 915px;
+	margin: 180px 0 0 130px;
+	padding: 10px 20px 30px 25px;
+	font:13px Georgia, "Times New Roman", Times, serif;
+	color:#777;
+	line-height:20px;
+	text-shadow: 1px 1px 1px #fff;
+	-moz-box-shadow: 2px 2px 10px #909090;
+    -webkit-box-shadow: 2px 2px 10px #909090; 
+}
+	
+
+#addnewuser{
+	width: 915px;
+	float: left;
+	height: auto;
+	padding: 20px 0 30px 0px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 40px; 
+	color: #49BBCC; 
+	font-weight: 600;
+	text-shadow: 1px 1px 1px #fff;
+}
+	
+#footer{
+	clear:both;
+	float:left;
+	width: 950px;
+	margin: -5px 0 0 132px;
+	left top no-repeat; 
+	text-align:left; 
+	font: 10px Georgia, "Times New Roman", Times, serif;
+	color: #777;
+	text-shadow: 1px 1px 1px #fff;}	
+	
+input[type=submit] {
+    border-radius: 5px;
+    border: 0;
+    width: 80px;
+    height:25px;
+    font: 11px Georgia, "Times New Roman", Times, serif;
+	color: #fff;
+    background: #ccc;}
+
+#mood{
+	width: 915px;}
+
+#start{
+	float: left;}
+	
+#end{
+	margin-left: 490px;}
+	
+#avl1{
+	float: left;
+	color: #49BBCC;
+	}
+	
+#avl2{
+	margin-left: 490px;
+	color: #49BBCC;
+	}
+
+#s1{
+	float: left;}
+#s2{
+	float: left;}
+#s3{
+	float: left;}
+#s4{
+	float: left;}
+#s5{
+	float: left;}
+#s6{
+	float: left;}
+#s7{
+	float: left;}
+#s8{
+	float: left;}
+#s9{
+	float: left;}
+#s10{
+	float: left;}
+#s11{
+	margin-left: 490px;
+	background:#eee;}	
+#s12{
+	margin-left: 490px;
+	background:#eee;}
+#s13{
+	margin-left: 490px;
+	background:#eee;}	
+#s14{
+	margin-left: 490px;
+	background:#eee;}	
+#s15{
+	margin-left: 490px;
+	background:#eee;}	
+#s16{
+	margin-left: 490px;
+	background:#eee;}
+#s17{
+	margin-left: 490px;
+	background:#eee;}
+#s18{
+	margin-left: 490px;
+	background:#eee;}
+#s19{
+	margin-left: 490px;
+	background:#eee;}
+#s20{
+	margin-left: 490px;
+	background:#eee;}
+	
+#submitbutton{
+	margin-left: 825px;}
+
+</style>
+
+  
+</head>
+
+<body>
+<div id="topheader"></div>
+<div id="wrapper">
+  <div id="logo"><img src="logo.png" width="174" height="125"></div>
+<div id="webtitle">
+Reading Rainbow
+</div>
+</div>
+
+<div id="about">
+<p>This application aims to combine and visualize mood tracking and knowledge acquisition. Mood is tracked before and after individuals read any citable piece of literature. Time spent reading and change in mood throughout reading is visualized along the x and y axis enabling individuals to track their mood associated with various pieces of literature. Mouseover the time to move forward and backwards through time.</p>
+</div>
+
+<div id="chart">
+</div>
+
+<script src="d3/d3.min.js"></script>
+<script src="d3/jquery.js"></script>
+<script src="d3/jquery-ui.js"></script>
+<script src="d3/jquery.timepicker.js"></script>
+<link rel="stylesheet" type="text/css" href="d3/jquery.timepicker.css" />
+<link rel="stylesheet" href="d3/jquery-ui.css" />
+<script>
+
+// JQuery UI Code Start
+function avgFromMood(s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,s11,s12,s13,s14,s15,s16,s17,s18,s19,s20) {
+    var avg = [
+      s1.toString( 20 ),
+      s2.toString( 20 ),
+      s3.toString( 20 ),
+      s4.toString( 20 ),
+      s5.toString( 20 ),
+      s6.toString( 20 ),
+      s7.toString( 20 ),
+      s8.toString( 20 ),
+      s9.toString( 20 ),
+      s10.toString( 20 ),
+	  s11.toString( 20 ),
+      s12.toString( 20 ),
+      s13.toString( 20 ),
+      s14.toString( 20 ),
+      s15.toString( 20 ),
+      s16.toString( 20 ),
+      s17.toString( 20 ),
+      s18.toString( 20 ),
+      s19.toString( 20 ),
+      s20.toString( 20 ),
+    ];
+    var sum;
+    $.each( avg, function( nr, val ) {
+        sum+=val;
+    });
+    alert(sum);
+    return sum/avg.length;
+}
+function refreshSwatch() {
+    var s1 = $( "#s1" ).slider( "value" ),
+      s2 = $( "#s2" ).slider( "value" ),
+      s3 = $( "#s3" ).slider( "value" ),
+      s4 = $( "#s4" ).slider( "value" ),
+      s5 = $( "#s5" ).slider( "value" ),
+      s6 = $( "#s6" ).slider( "value" ),
+      s7 = $( "#s7" ).slider( "value" ),
+      s8 = $( "#s8" ).slider( "value" ),
+      s9 = $( "#s9" ).slider( "value" ),
+      s10 = $( "#s10" ).slider( "value" ),
+	  s11 = $( "#s11" ).slider( "value" ),
+      s12 = $( "#s12" ).slider( "value" ),
+      s13 = $( "#s13" ).slider( "value" ),
+      s14 = $( "#s14" ).slider( "value" ),
+      s15 = $( "#s15" ).slider( "value" ),
+      s16 = $( "#s16" ).slider( "value" ),
+      s17 = $( "#s17" ).slider( "value" ),
+      s18 = $( "#s18" ).slider( "value" ),
+      s19 = $( "#s19" ).slider( "value" ),
+      s20 = $( "#s20" ).slider( "value" ),
+      avg1 = (s1+s2+s3+s4+s5+s6+s7+s8+s9+s10)/10,
+	  avg2 = (s11+s12+s13+s14+s15+s16+s17+s18+s19+s20)/10;
+    $("#mood1").val(avg1);
+	$("#mood2").val(avg2);
+}
+
+$(function() {
+    $( "#datepicker1" ).timepicker({ 'scrollDefaultNow': true });
+    $( "#datepicker2" ).timepicker({ 'scrollDefaultNow': true });
+    $( "input[type=submit], button" )
+      .button()
+      .click(function( event ) {
+        event.preventDefault();
+       // $("#datepicker1").val()=960,$("#datepicker2").val()=980;
+      var JSONData = [{"name":$("#name").val(),"readingDuration":[[960,1],[1060,100],[1061,0.1]],"moodScore":[[960,$("#mood1").val()],[1060,$("#mood2").val()]],"readingTitle":[[960,$("#title").val()]]}];
+$(".dots").remove();
+$(".authorText").remove();
+$(".authorRect").remove();
+readingRainbow(JSONData); 
+
+      });
+
+    $( "div#s1, div#s2, div#s3, div#s4, div#s5, div#s6, div#s7 , div#s8, div#s9, div#s10, div#s11, div#s12, div#s13, div#s14, div#s15, div#s16, div#s17 , div#s18, div#s19, div#s20" ).slider({
+      orientation: "horizontal",
+      range: "min",
+      max: 100,
+      min: 0,
+      value: 50,
+      slide: refreshSwatch,
+      change: refreshSwatch
+    });
+  });
+// JQuery UI Code END
+
+
+// Various accessors that specify the four dimensions of data to visualize.
+function x(d) { return d.readingDuration; }
+function y(d) { return d.moodScore; }
+function radius(d) { return d.readingDuration; }
+function color(d) { return d.name; }
+function key(d) { return d.name; }
+function title(d){return d.readingTitle;}
+
+// Chart dimensions.
+var margin = {top: 19.5, right: 19.5, bottom: 19.5, left: 39.5},
+    width = 960 - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
+// Various scales. These domains make assumptions of data, naturally.
+var xScale = d3.scale.log().domain([1, 300]).range([0, width]),
+    yScale = d3.scale.linear().domain([0, 100]).range([height, 0]),
+    radiusScale = d3.scale.sqrt().domain([1, 300]).range([0, 40]),
+    colorScale = d3.scale.category10();
+
+// The x & y axes.
+var xAxis = d3.svg.axis().orient("bottom").scale(xScale).ticks(12, d3.format(",d")),
+    yAxis = d3.svg.axis().scale(yScale).orient("left");
+
+// Create the SVG container and set the origin.
+var svg = d3.select("#chart").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+svg.append("svg:line")
+    .attr("x1", 0)
+    .attr("y1", height/2)
+    .attr("x2", width)
+    .attr("y2", height/2)
+    .style("stroke", "red");
+
+// Add the x-axis.
+svg.append("g")
+    .attr("class", "x axis")
+    .attr("transform", "translate(0," + height + ")")
+    .call(xAxis);
+
+// Add the y-axis.
+svg.append("g")
+    .attr("class", "y axis")
+    .call(yAxis);
+
+// Add an x-axis label.
+svg.append("text")
+    .attr("class", "x label")
+    .attr("text-anchor", "end")
+    .attr("x", width)
+    .attr("y", height - 6)
+    .text("reading duration (minutes)");
+
+// Add a y-axis label.
+svg.append("text")
+    .attr("class", "y label")
+    .attr("text-anchor", "end")
+    .attr("y", 6)
+    .attr("dy", ".75em")
+    .attr("transform", "rotate(-90)")
+    .text("mood score (50 is neutral)");
+
+// Add the year label; the value is set on transition.
+var label = svg.append("text")
+    .attr("class", "year label")
+    .attr("text-anchor", "end")
+    .attr("y", height - 24)
+    .attr("x", width)
+    .text(transformTime(0));
+
+function transformTime(time) {
+    var hour = Math.floor(time/60);
+    var min = Math.floor(time%60);
+    if(min<=9)
+        return hour+":0"+min;
+    else
+        return hour+":"+min;
+    
+    }
+
+// Load the data.
+function readingRainbow(nations) {
+    // Add Legend
+    var legend = svg.selectAll("authorGroup").data(extractAuthor(nations))
+        .enter().append("rect")
+        .attr("class","authorRect")
+        .attr("transform",
+            "translate("+ margin.left+","+height*2/3+")")
+        .attr("x",0)
+        .attr("y",function(d,i){
+                return i*25;
+            })
+        .attr("width", 30 )
+	.attr("height",20 )
+	.attr("fill", function(d, i) {
+	    return colorScale(color(d));
+        });
+
+    var legendText = svg.selectAll("authorText").data(extractAuthor(nations))
+        .enter()
+        .append("text")
+		.attr("class","authorText")
+        .attr("x",35)
+        .attr("y",function(d,i){
+                return i*25;
+            })
+        .attr("fill","black")
+        .text(function(d){
+                return d.name;
+            })
+        .attr("transform",
+            "translate("+ margin.left+","+(height*2/3+15)+")")
+        ;
+
+  // A bisector since many nation's data is sparsely-defined.
+  var bisect = d3.bisector(function(d) { return d[0]; });
+
+  // Add a dot per nation. Initialize the data at 1800, and set the colors.
+  var dot = svg.append("g")
+      .attr("class", "dots")
+    .selectAll(".dot")
+      .data(interpolateData(0))
+    .enter().append("circle")
+      .attr("class", "dot")
+      .style("fill", function(d) { return colorScale(color(d)); })
+      .call(position)
+      .sort(order);
+
+  // Add a title.
+  dot.append("title")
+      .text(function(d) { return d.title; });
+
+  // Add an overlay for the year label.
+  var box = label.node().getBBox();
+
+  var overlay = svg.append("rect")
+        .attr("class", "overlay")
+        .attr("x", box.x)
+        .attr("y", box.y)
+        .attr("width", box.width)
+        .attr("height", box.height)
+        .on("mouseover", enableInteraction);
+
+  // Start a transition that interpolates the data based on year.
+  svg.transition()
+      .duration(100000)
+      .ease("linear")
+      .tween("year", tweenYear)
+      .each("end", enableInteraction);
+
+  // Positions the dots based on data.
+  function position(dot) {
+    dot .attr("cx", function(d) { return xScale(x(d)); })
+        .attr("cy", function(d) { return yScale(y(d)); })
+        .attr("r", function(d) { return radiusScale(radius(d)); });
+  }
+
+  // Defines a sort order so that the smallest dots are drawn on top.
+  function order(a, b) {
+    return radius(b) - radius(a);
+  }
+
+  // After the transition finishes, you can mouseover to change the year.
+  function enableInteraction() {
+    var yearScale = d3.scale.linear()
+        .domain([540, 1439])
+        .range([box.x + 10, box.x + box.width - 10])
+        .clamp(true);
+
+    // Cancel the current transition, if any.
+    svg.transition().duration(0);
+
+    overlay
+        .on("mouseover", mouseover)
+        .on("mouseout", mouseout)
+        .on("mousemove", mousemove)
+        .on("touchmove", mousemove);
+
+    function mouseover() {
+      label.classed("active", true);
+    }
+
+    function mouseout() {
+      label.classed("active", false);
+    }
+
+    function mousemove() {
+      displayYear(yearScale.invert(d3.mouse(this)[0]));
+    }
+  }
+
+  // Tweens the entire chart by first tweening the year, and then the data.
+  // For the interpolated data, the dots and label are redrawn.
+  function tweenYear() {
+    var year = d3.interpolateNumber(540, 1439);
+    return function(t) { displayYear(year(t)); };
+  }
+
+  // Updates the display to show the specified year.
+  function displayYear(year) {
+    dot.data(interpolateData(year), key).call(position).sort(order);
+    //label.text(Math.round(year));
+    label.text(transformTime(year));
+  }
+
+  // Interpolates the dataset for the given (fractional) year.
+  function interpolateData(year) {
+    return nations.map(function(d) {
+      return {
+        name: d.name,
+        readingDuration: interpolateValues(d.readingDuration, year),
+        moodScore: interpolateValues(d.moodScore, year),
+        title: interpolateTitles(d.readingTitle,year)
+      };
+    });
+  }
+  
+  // Finds (and possibly interpolates) the value for the specified year.
+  function interpolateValues(values, year) {
+    var i = bisect.left(values, year, 0, values.length - 1),
+        a = values[i];
+    if (i > 0) {
+      var b = values[i - 1],
+          t = (year - a[0]) / (b[0] - a[0]);
+      return a[1] * (1 - t) + b[1] * t;
+    }
+    return a[1];
+  }
+
+  function extractAuthor(){
+    return nations.map(function(d){
+        return {
+                name: d.name 
+            };
+        });
+  }
+
+function interpolateTitles(values,year){
+    var i = bisect.left(values, year, 0, values.length - 1),
+        a = values[i];
+    if (i > 0) {
+      return a[1];
+    }
+    return a[1];
+  } 
+
+}
+
+d3.json("nations.json",function(nations){readingRainbow(nations);} );
+
+</script>
+
+<div id="newuser">
+<div id="addnewuser">
+Add A Reading
+</div> 
+<form id="myForm" action="submit.php" method="post"> 
+    <p>Name:</br><input type="text" id="name" /></p> 
+    <p>Reading's Title:</br> <input type="text" id="title"/></p>
+    <div id="mood"><div id="start">Start Time:</br> <input type="text" id="datepicker1"/></div>
+    <div id="end">End Time:</br><input type="text" id="datepicker2"/></div></div></br>
+    
+	<div id="mood"><div id="start">Sad - Happy:</div><div id="end">Sad - Happy:</div></div>
+    <div id="mood"><div id="s1"></div><div id="s11"></div></div></br>
+    <div id="mood"><div id="start">Tired - Energetic:</div><div id="end">Tired - Energetic:</div></div>
+    <div id="mood"><div id="s2"></div><div id="s12"></div></div></br>
+    <div id="mood"><div id="start">Worried - Calm:</div><div id="end">Worried - Calm:</div></div>
+    <div id="mood"><div id="s3"></div><div id="s13"></div></div></br>
+    <div id="mood"><div id="start">Tense - Relaxed:</div><div id="end">Tense - Relaxed:</div></div>
+    <div id="mood"><div id="s4"></div><div id="s14"></div></div></br>
+    <div id="mood"><div id="start">Pessimistic - Optimistic:</div><div id="end">Pessimistic - Optimistic:</div></div>
+    <div id="mood"><div id="s5"></div><div id="s15"></div></div></br>
+    <div id="mood"><div id="start">Hopeless - Hopeful:</div><div id="end">Hopeless - Hopeful:</div></div>
+    <div id="mood"><div id="s6"></div><div id="s16"></div></div></br>
+    <div id="mood"><div id="start">Lonely - Connected:</div><div id="end">Lonely - Connected:</div></div>
+    <div id="mood"><div id="s7"></div><div id="s17"></div></div></br>
+    <div id="mood"><div id="start">Unsafe - Safe:</div><div id="end">Unsafe - Safe:</div></div>
+    <div id="mood"><div id="s8"></div><div id="s18"></div></div></br>
+    <div id="mood"><div id="start">Unloved - Loved:</div><div id="end">Unloved - Loved:</div></div>
+    <div id="mood"><div id="s9"></div><div id="s19"></div></div></br>
+    <div id="mood"><div id="start">Angry - Content:</div><div id="end">Angry - Content:</div></div>
+    <div id="mood"><div id="s10"></div><div id="s20"></div></div></br> 
+    <div id="avl1">Moodscore: <input type="text", id="mood1" style=" width: 26px; background: transparent; border:0; color:#49BBCC; font-weight:bold;" /></div>
+    <div id="avl2">Moodscore: <input type="text", id="mood2" style="width: 26px; background: transparent; border:0; color:#49BBCC; font-weight:bold;" /></div>
+    <div id="submitbutton"><input type="submit" value="Submit"/></div>
+</form>
+</div>
+
+ 
+<div id="footer">
+<p>Reading Rainbow Group, Class INF 261 © 2013</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,295 @@
+/*
+Theme Name: LenoMag
+Theme URI: http://wpjunction.com
+Description: LenoMag Premium WP Theme
+Version: 1.0
+Author: Denishua
+Author URI:http://fairyfish.com
+Tags:yellow,blue,grey,two-columns,fixed-width,theme-options 
+*/
+
+*{padding:0;margin:0;}
+
+
+
+img,a img{border:0;}
+
+ul, li, dl, dt, dd{list-style:none;}
+
+textarea,input,button,select{font-size:12px; vertical-align:middle; color:#666;padding:1px;font-family:Arial;}
+
+html{height:100%;}
+
+
+
+/************* Reset style end **************/
+
+
+
+a{
+	text-decoration:none;
+	color:#999999;
+}
+
+a:hover{
+	text-decoration:none;
+	color: #666;
+}
+
+.clear{clear:both;height:0;overflow:hidden;font-size:0;line-height:0;border:0;}
+
+.clearfix:after {clear:both; height:0; overflow:hidden; display:block; visibility:hidden; content:"."; }
+
+body{font-family:Arial;font-size:11px;line-height:18px;color:#a7a7a7;padding:30px 0 0 0; background:#ffffff;}
+
+
+
+.absolute{
+	position:absolute;
+	overflow:hidden;
+	height:7px;
+	width:3px;
+}
+
+/************* Body style end **************/
+
+
+
+#wrapper{width:962px; margin:0 auto; background:#ebebeb left top no-repeat; padding:4px;}
+
+#header{height:110px; position:relative; background:#fff;}
+
+#header h1 a{
+	position:absolute;
+	text-indent:-9999pt;
+	background:url(img/logo.png);
+	height:38px;
+	width:216px;
+	cursor:pointera;
+	left:30px;
+	top:68px;
+	background-image: url(img/logo.png);
+}
+
+#header p strong{ background:url(img/right.gif) left top no-repeat; height:30px; display:inline-block; padding:2px 10px; font-size:12px;}
+
+#header p{background:url(img/left.gif) right top no-repeat;position:absolute; left:260px; top:45px;}
+
+
+
+.Navi{position:relative; background:#ffffff; margin:4px 0 0 0; height:42px; overflow:hidden;}
+
+	.Navi ul{float:left; padding-left:10px;}
+
+	.Navi li{float:left; position:relative; z-index:2;}
+
+	.Navi li a{display: inline-block; height:42px; line-height:42px; padding:0 15px; font-size:12px; font-weight:bold;}
+
+	.Navi li a:hover,.current_page_item a{color:#d7d7d7; text-decoration:none;}
+
+	li.back{background: url(img/nav_1.gif) left no-repeat; position:absolute; z-index:1; top:9px;}
+
+	li div.left{background:url(img/nav_2.gif) right no-repeat; height:26px;}
+
+#container1 {padding: 10px 55px 70px 20px; height:350px; position:relative; background:#fff;}
+
+#about {
+	float: left;
+	width: 520px;
+	height: 320px;
+	margin-top: 20px;
+	padding: 10px 10px 10px 10px;
+	background-color:#ffffff;
+	border: 1px solid #ebebeb;
+	font-family:Tahoma, Arial, "Arial Narrow", "HelveticaNeueLT Pro 55 Roman", sans-serif;
+	font-size:13px;
+	color:#666;
+	line-height:20px;
+}
+
+#photo {float: right; margin-top: 20px; padding: 10px;border: 1px solid #ebebeb;}
+
+#container2 {
+	padding: 10px 15px 70px 15px;
+	height:600px;
+	position:relative;
+	background:#fff;
+}
+
+#projectphoto{
+  margin: 10px 15px 10px 15px;
+  border: 1px solid #ebebeb;
+  height: auto;
+  width: auto;
+  float: left;
+  text-align: center;
+}	
+#projectphoto img
+{
+  display: inline;
+  margin: 5px;
+  border: 1px solid #ebebeb;
+}
+#projectphoto a:hover img {border: 1px solid #999;}
+#desc
+{
+  text-align: left;
+  font-weight: normal;
+  margin: 2px;
+  color: #666;
+  padding: 3px
+}
+#desc .title {
+	font-size: 12px;
+	color: #666;
+	font-weight: bold;
+	text-align: left;
+}
+
+#container3 {padding: 10px 20px 70px 20px; height:850px; position:relative; background:#fff;}
+
+#resume {
+	float: left;
+	width: 670px;
+	height: 840px;
+	margin-top: 20px;
+	padding: 20px 10px 10px 10px;
+	background-color:#ebebeb;
+	font-family:Tahoma, Arial, "Arial Narrow", "HelveticaNeueLT Pro 55 Roman", sans-serif;
+	font-size:13px;
+	color:#666;
+	line-height:25px;
+}
+
+#resume .title {
+	font-size: 18px;
+	color: #666;
+	border-bottom: 1px dotted #fff;
+	font-weight: bold;
+	text-align: left;
+	margin: 10px 0 0 0;
+}
+
+#toolbox {
+	float: right;
+	width: 200px;
+	height: 840px;
+	margin-top: 20px;
+	padding: 20px 10px 10px 10px;
+	background-color:#ebebeb;
+	font-family:Tahoma, Arial, "Arial Narrow", "HelveticaNeueLT Pro 55 Roman", sans-serif;
+	font-size:13px;
+	color:#666;
+	line-height:25px;
+}
+
+#toolbox .title {
+	font-size: 18px;
+	color: #666;
+	border-bottom: 1px dotted #fff;
+	font-weight: bold;
+	text-align: left;
+	margin: 10px 0 0 0;
+}
+
+#container4 {padding: 10px 20px 70px 20px; height:550px; position:relative; background:#fff;}
+
+#photography {
+	height: 20px;
+	margin-top: 20px;
+	padding: 10px 10px 10px 10px;
+	background-color:#ffffff;
+	border: 1px solid #ebebeb;
+	font-family:Tahoma, Arial, "Arial Narrow", "HelveticaNeueLT Pro 55 Roman", sans-serif;
+	font-size:13px;
+	color:#666;
+	text-align:center;
+	line-height:20px;
+}
+
+#container5 {
+	padding: 10px 20px 70px 20px;
+	height:1400px;
+	position:relative;
+	background:#fff;
+}
+
+#introduction {
+	float: left;
+	width: 500px;
+	height: 70px;
+	margin-top: 20px;
+	padding: 10px 10px 10px 10px;
+	background-color:#ebebeb;
+	font-family:Tahoma, Arial, "Arial Narrow", "HelveticaNeueLT Pro 55 Roman", sans-serif;
+	font-size:13px;
+	color:#666;
+	line-height:25px;
+}
+
+#projectbox {
+	float: right;
+	width: 200px;
+	height: 300px;
+	margin-top: 20px;
+	padding: 10px 10px 10px 10px;
+	background-color:#fff;
+	border: 1px solid #ebebeb;
+	font-family:Tahoma, Arial, "Arial Narrow", "HelveticaNeueLT Pro 55 Roman", sans-serif;
+	font-size:13px;
+	color:#666;
+	line-height:25px;
+}
+#projectbox .on {
+    color: #666
+}
+
+#projectbox .title {
+	font-size: 18px;
+	color: #666;
+	border-bottom: 1px dotted #ebebeb;
+	font-weight: bold;
+	text-align: left;
+	margin: 10px 0 0 0;
+}
+
+#projectinfo {
+	float: left;
+	width: 500px;
+	height: 50px;
+	margin-top: 20px;
+	padding: 10px;
+	background-color:#ebebeb;
+	font-family:Tahoma, Arial, "Arial Narrow", "HelveticaNeueLT Pro 55 Roman", sans-serif;
+	font-size:13px;
+	color:#666;
+	line-height:25px;
+}
+
+#details {
+	float: left;
+	width: 500px;
+	height: 800px;
+	margin-top: 20px;
+	padding: 10px;
+	background-color:#ebebeb;
+	font-family:Tahoma, Arial, "Arial Narrow", "HelveticaNeueLT Pro 55 Roman", sans-serif;
+	font-size:13px;
+	color:#666;
+	line-height:25px;
+}
+
+#details .title {
+	font-size: 18px;
+	color: #666;
+	border-bottom: 1px dotted #fff;
+	font-weight: bold;
+	text-align: left;
+	margin: 10px 0 0 0;
+}
+
+	
+
+#footer{clear:both;width:970px; margin:0 auto; left top no-repeat; text-align:center; height:1px;}
+
+#footer .top{padding:10px 0 10px 0; color:#828282;}
